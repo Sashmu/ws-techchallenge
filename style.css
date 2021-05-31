@@ -1,0 +1,79 @@
+.content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 400px;
+   color: white;
+ }
+
+ .nav
+ {
+    display:inline;
+ }
+ body {
+   font-family: 'Bree Serif' !important; 
+   font-size: 22px !important;
+ 
+}
+ li{
+    font-size: 1.5rem;;
+ }
+tr{
+   color:white;
+}
+
+a{
+   color:white !important;
+}
+
+a:hover{
+   color: #FD7C7C !important;
+}
+
+ .home{
+   background-image: url("bg.png");
+   background-position: auto ;
+  background-repeat: no-repeat;
+ }
+.frm
+{   height: 70%;
+   width: 100%;
+   display: flex;
+   position: fixed;
+   align-items: center;
+   justify-content: center;
+   color:black;
+
+}
+
+.frmdiv{
+   width: 900px;
+}
+
+.card-text{
+   color:black;
+
+}
+.pages{
+   background-image: url("bgpages.png");
+   color:white !important;
+}
+
+.hidden{
+   display: none;
+}
+
+
+
+.footer
+{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  background: #141414;
+  text-align: left;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+
+}
